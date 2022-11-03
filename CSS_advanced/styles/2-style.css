@@ -1,3 +1,10 @@
+/* 
+    Setting declarations for body, anchors,
+    visually-hidden class, card-category class and section-tagline class.
+*/
+html {
+    scroll-behavior: smooth;
+}
 body{
     color: #161616;
 }
