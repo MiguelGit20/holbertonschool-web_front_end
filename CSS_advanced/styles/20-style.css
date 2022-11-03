@@ -120,7 +120,7 @@ ul.row{
     padding: 0;
     list-style: none;
 }
-ul.row::after{
+.row::after{
     content: none;
     display: table;
     float: none;
