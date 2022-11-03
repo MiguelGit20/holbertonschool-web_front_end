@@ -121,7 +121,6 @@ ul.row{
     list-style: none;
 }
 .row::after{
-    content: none;
     display: table;
     float: none;
 }
