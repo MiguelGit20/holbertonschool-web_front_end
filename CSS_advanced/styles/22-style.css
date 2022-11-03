@@ -14,9 +14,7 @@ html {
     font-size: 62.5%;
 }
 
-html[data-theme='dark'] {
-    --background-color: var(--color-black);
-}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -56,6 +54,9 @@ html[data-theme='dark'] {
     --section-tagline-margin: 0;
 }
 
+[data-section-theme="dark"] {
+    --background-color: var(--color-black);
+}
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
