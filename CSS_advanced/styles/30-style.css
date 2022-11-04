@@ -157,29 +157,29 @@ a:active{
     right: -0.1rem;
     z-index: 1;
 }
-.card-services .card-title{
-    margin: 0;
-}
 .card-work:hover .card-inner{
     background-color: rgba(0, 0, 0, 0.7);
-}
-.card-services a{
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
 }
 .card-work .card-title{
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
-.card-title, .card-work a::after{
+.card-title .card-work a::after{
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     content: "";
 }
 .card-work:hover .card-title{
     opacity: 1;
+}
+.card-services .card-title{
+    margin: 0;
+}
+.card-services a{
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
 }
 .card-services a:hover{
     color: var(--color-white);
